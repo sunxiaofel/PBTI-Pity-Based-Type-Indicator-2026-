@@ -1,17 +1,82 @@
-# React + Vite
+这份 `README.md` 文件我为你打磨好了，采用了 **开发者视角 + 黑色幽默** 的混排方式。你可以直接复制到项目的根目录下。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-----
 
-Currently, two official plugins are available:
+# 💔 PBTI (Pity-Based Type Indicator)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **“MBTI 帮你找工作，PBTI 劝你早出家。”**
 
-## React Compiler
+## 📋 项目简介
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**PBTI** 是一款针对互联网当代青年打造的“情感处刑”测试系统。它基于 React + Tailwind CSS 构建，拥有极简的 UI 布局和极不友好的文案逻辑。
 
-## Expanding the ESLint configuration
+项目灵感来源于经典的 MBTI 理论，但我们将研究方向从“职业性格”转向了“情场死因”。通过 20 道 4 选 1 的降温考题，系统会从 **D-R（妄想/现实）**、**L-P（卑微/傲娇）**、**S-A（舔狗/闪躲）**、**M-F（戏精/枯木）** 四个维度为你精准画像。
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# PBTI-Pity-Based-Type-Indicator-2026-
+-----
+
+## 🚀 技术实现
+
+  * **框架:** React 18 (Vite 打包)
+  * **样式:** Tailwind CSS (实现像素级复刻的极简美学)
+  * **动画:** Framer Motion (让心碎的过程更有打击感)
+  * **图标:** Lucide React (工业风图标库)
+
+-----
+
+## 🧬 16 种人格结果全览 (开发者参考手册)
+
+为了方便开发者调试及用户查阅，以下是系统内置的 16 种人格结果及其“毒舌”分析：
+
+| 编码 | 绰号 | 处刑描述摘要 | 恋爱脑指数 | 孤寡指数 |
+| :--- | :--- | :--- | :--- | :--- |
+| **DSLM** | **纯情水泥匠** | 恋爱脑重症，回个“哦”你连墓地都选好了。 | 98% | 5% |
+| **DSLP** | **软骨头杠精** | 嘴硬心软，对方一个电话你立马光速打脸。 | 85% | 15% |
+| **DSAM** | **赛博望夫石** | 网上海王，线下鹌鹑，恋爱经验全靠屏幕磨损。 | 90% | 70% |
+| **DSAF** | **梦境拾荒者** | 现实没人理，梦里爱死纸片人，等顺丰送对象中。 | 95% | 90% |
+| **DRLM** | **壁虎系舔狗** | 被伤透也能断尾求生，找下一个人继续贴。 | 40% | 10% |
+| **DRLP** | **高端回收站** | 清醒地看对方渣你，还要替对方找苦衷。 | 30% | 20% |
+| **DRAM** | **间歇性自恋** | 觉得全世界暗恋你，其实大家只是在看路。 | 75% | 40% |
+| **DRAF** | **纯血单身狗** | 幻想着天降真爱，实际上连门都不出。 | 80% | 95% |
+| **RSLM** | **现实派奴隶** | 明知没结果还要死缠烂打，记性不好还没骨气。 | 20% | 5% |
+| **RSLP** | **批发表白王** | 广撒网拼多多式恋爱，万一有人瞎了眼呢？ | 15% | 10% |
+| **RSAM** | **短路型海王** | 撩完就跑，对方一当真你就人间蒸发。 | 25% | 65% |
+| **RSAF** | **冷感人形机** | 觉得恋爱效率低，为了省电把心房灯拆了。 | 10% | 85% |
+| **RPLM** | **苦情戏路人** | 脑补自己是主角，其实连领盒饭的机会都没有。 | 20% | 30% |
+| **RPLP** | **孤岛老船长** | 看透一切孤独终老，心硬得能砸核桃。 | 10% | 95% |
+| **RPAM** | **被害妄想症** | 总觉得别人骗你钱色，虽然你两样都没有。 | 50% | 80% |
+| **RPAF** | **铁血枯木精** | 情感系统已卸载，唯一亲密关系是充电线。 | 5% | 100% |
+
+-----
+
+## 🛠️ 安装与运行
+
+1.  **克隆仓库**
+
+    ```bash
+    git clone https://github.com/your-username/pbti-test.git
+    ```
+
+2.  **安装依赖**
+
+    ```bash
+    npm install
+    ```
+
+3.  **启动开发环境**
+
+    ```bash
+    npm run dev
+    ```
+
+-----
+
+## ⚠️ 免责声明
+
+  * 本测试纯属娱乐，不具备任何心理学临床诊断意义。
+  * 测完后如觉不适，请放下手机，拥抱现实（或者多赚点钱）。
+  * 严禁将本测试用于入职筛选，除非你想招一整家公司的“铁血枯木精”。
+
+-----
+
+**PBTI Research Lab © 2026**
+*“世界已经够乱了，起码让你死个明白。”*
